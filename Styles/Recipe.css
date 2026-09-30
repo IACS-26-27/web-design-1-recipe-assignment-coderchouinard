@@ -1,0 +1,30 @@
+h1 { 
+  box-sizing: border-box;
+  background-color: limegreen;
+  text-align: center;
+  border: 120px;
+  padding: 12px;
+  max-width: 600px;
+  margin: auto;
+  font-size: 48px;
+  color: rgb(255, 55, 55);
+}
+h4 {
+  color: rgb(244, 10, 37);
+  font-size: 22px;
+}
+body {
+  background-color: rgb(255, 230, 44);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ingredients-column,
+.instructions-column {
+  box-sizing: content-box;
+  background-color: rgb(148, 74, 74);
+  max-width: 100px;
+  float: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
