@@ -1,29 +1,33 @@
 body {
-  background-color: rgb(110, 196, 110);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--mainbackground-color);
+  font-family: "Libre Caslon Condensed", sans-serif;
   font-size: 18px;
+  color: var(--mainfont-color);
 }
 
 h1 {
   box-sizing: border-box;
-  background-color: rgb(197, 215, 197);
+  background-color: var(--columnbackground-color);
   text-align: center;
   border: 4px solid var(--mainfont-color);
   padding: 12px;
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
   font-size: 48px;
+  font-family: "Isometra", sans-serif;
   color: var(--mainfont-color);
 }
 
 :root {
   --mainfont-color: rgb(0, 0, 0);
+  --columnbackground-color: rgb(197, 215, 197);
+  --mainbackground-color: rgb(110, 196, 110);
 }
 
 .sources {
   box-sizing: border-box;
   border: 4px solid var(--mainfont-color);
-  background-color: rgb(197, 215, 197);
+  background-color: var(--columnbackground-color);
   max-width: 500px;
   padding: 15px;
   Padding-top: 5px;
