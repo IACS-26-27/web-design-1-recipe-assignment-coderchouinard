@@ -80,9 +80,7 @@ ol li {
 }
 
 .important {
-  font-weight: bold;
+  font-weight:bolder;
+  font-style: italic;
 }
 
-.unit {
-  font-variant-numeric: diagonal-fractions;
-}
